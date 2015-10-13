@@ -63,6 +63,8 @@ Main methods
   - **postTimeEntry(params)** returns time entry of given id
   - **updateTimeEntry(id, params)** update time entry corresponding to the given id
   - **deleteTimeEntry(id)** delete time entry of given id
+- **Wiki**
+  - **getWiki(wikiUrl)** returns wiki page
 
 All request made can use a retry settings based on an exponential backoff algorithm.
 You can set thoose settings for all request using *setMaxRetry* and *setMaxDelay* methods, or on a request basis by passing a *retry* property to the *params* parameter. This *retry* property should be an object with one or two property of *maxTry* and *maxDelay* e.g. ```var params = {retry: {maxTry:3}}```
