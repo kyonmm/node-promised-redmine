@@ -1,6 +1,6 @@
 {
   "name": "slack-promised-redmine",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Redmine Rest API Client for node.js with Promises/A+ compliance",
   "tags": [
     "redmine",
